@@ -320,25 +320,6 @@ const EventHandler = async (client_, msg_) => {
                     .catch(err => msg_.reply(err))
                     break;
 
-                case 'igdl':
-                    igdl(text)
-                        .then(resp => {
-                            const { author, type, like, link, data } = resp
-                            if (type == 'image') {
-                                let msg = `IG IMAGE DOWNLOADER by (xspc-bot)\n\n${author} [${like} likes]\n\nLink: ${link}`
-
-                                client_.sendMessage(from, new MessageMedia('image/jpeg', data, 'xspc-bot'), {
-                                    caption: msg
-                                })
-                            } else {
-                                let msg = `IG VIDEO DOWNLOADER by (xspc-bot)\n\n${author} [${like} likes]\n\nLink: ${link}`
-
-                                client_.sendMessage(from, new MessageMedia('video/mp4', data, 'xspc-bot'), {
-                                    caption: msg
-                                })
-                            }
-                        }).catch(err => msg_.reply(err))
-                    break;
                 case 'wiki':
                     wikipedia(text).then(data => msg_.reply(data.data)).catch(err => msg_.reply(err))
                     break;
