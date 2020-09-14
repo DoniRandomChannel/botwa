@@ -1,0 +1,3 @@
+[0914/102930.028:ERROR:file_io_win.cc(162)] CreateFile C:\Users\user\AppData\Local\Temp\puppeteer_dev_chrome_profile-oBC8KN\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0914/102930.156:ERROR:file_io_win.cc(171)] CreateFile C:\Users\user\AppData\Local\Temp\puppeteer_dev_chrome_profile-oBC8KN\Crashpad\reports\a0b5f5b9-8a15-4943-b8ed-163849a06ebd.dmp: The system cannot find the path specified. (0x3)
+[0914/102930.156:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed

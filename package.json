@@ -1,5 +1,5 @@
 {
-  "name": "aex-bot",
+  "name": "xspc-bot",
   "version": "1.2.0",
   "main": "app.js",
   "scripts": {
@@ -37,7 +37,7 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ibnusyawall/aex-bot.git"
+    "url": "git+https://github.com/DoniRandomChannel/botwa.git"
   },
   "keywords": [
     "aex-bot",
@@ -48,7 +48,7 @@
   "author": "ibnusyawall",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ibnusyawall/aex-bot/issues"
+    "url": "https://github.com/DoniRandomChannel/botwa/issues"
   },
-  "homepage": "https://github.com/ibnusyawall/aex-bot#readme"
+  "homepage": "https://github.com/DoniRandomChannel/botwa#readme"
 }
